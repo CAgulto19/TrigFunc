@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'MNC';
+  src: url(MNC.ttf);
+}
+@font-face {
+  font-family: 'mercy';
+  src: url(MERCY.ttf);
+}
+h1 {text-align: center;}
+
+input[type=text] {
+	text-align: center;
+	color: white;
+	font-family: mercy;
+  	height: 40px;
+  	width: 300;
+  	background-color: black;
+  	border-bottom: 3px solid white;
+  	border-right: 3px solid white;
+  	border-left: 3px solid white;
+  	border-top: 3px solid white;
+}
+input[type=submit] {
+	text-align: center;
+	height: 60px;
+  	width: 140;
+  	font-family: mercy;
+   	font-size: 24px;
+   	font-weight: bold;
+  	color: orange;
+  	background-color: black;
+  	border-bottom: 3px solid orange;
+  	border-right: 3px solid orange;
+  	border-left: 3px solid orange;
+  	border-top: 3px solid orange;
+  	box-sizing: border-box;
+}
+
+input[type=submit]:hover {
+	color: #ffff00;
+  	border-bottom: 3px solid #ffff00;
+  	border-right: 3px solid #ffff00;
+  	border-left: 3px solid #ffff00;
+  	border-top: 3px solid #ffff00;
+}
+
+
+div.a {
+  text-align: center;
+}
+
+body {
+  text-align: center;
+  font-size: 30;
+  background-image: url("UT.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: MNC;
+  color: white;
+  text-shadow: 2px 2px black;
+  h1 {text-align: center;}
+}

@@ -1,1 +1,1 @@
-Php code to calculate trigonometry function
+CSS and PHP code to calculate trigonometry function
